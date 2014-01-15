@@ -48,7 +48,7 @@ if "%C%"=="9" set TARGET=-app-store
 
 call bat\Packager.bat
 
-if "%PLATFORM%"=="android" goto android-package
+if "%PLATFORM%"=="android" goto android-package-choice
 
 :ios-package
 if "%AUTO_INSTALL_IOS%" == "yes" goto ios-install
@@ -65,6 +65,20 @@ if errorlevel 1 goto installfail
 echo Now manually start application on device
 echo.
 goto end
+
+:android-package-choice
+ECHO Do you wish to install to a local device?(y/n)
+SET /P M=Type your choice then press ENTER:
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+ECHO.
+IF %M%==y GOTO android-package
+IF %M%==Y GOTO android-package
+IF %M%==n exit
+IF %M%==N exit
 
 :android-package
 adb devices
