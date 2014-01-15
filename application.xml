@@ -49,7 +49,7 @@
 		<title>My Very Own Lith</title>
 		<!-- Please don't change the following line -->
 		<!-- Some of the automated build tools match against it to insert the proper swf name at compile-time -->
-		<content>MVOL014+.swf</content>
+		<content>MVOL.swf</content>
 		<visible>true</visible>
 		<fullScreen>true</fullScreen>
 		<autoOrients>false</autoOrients>
