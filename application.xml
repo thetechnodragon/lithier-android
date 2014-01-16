@@ -2,9 +2,9 @@
 <application xmlns="http://ns.adobe.com/air/application/3.9">
 	
 	<id>org.com.lithier.MyVeryOwnLith</id>
-	<versionNumber>0.1</versionNumber>
+	<versionNumber>0.14</versionNumber>
 	<supportedProfiles>mobileDevice</supportedProfiles>
-	<filename>MyVeryOwnLithAIR</filename>
+	<filename>MVOL_Android</filename>
 	
 	<name>My Very Own Lith</name>
 	<description></description>
