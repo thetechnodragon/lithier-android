@@ -2,6 +2,8 @@
 *.apk
 *.ap_
 *.swf
+SetupApplication.bat
+*.p12
 
 # files for the dex VM
 *.dex
