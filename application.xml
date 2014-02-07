@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?> 
-<application xmlns="http://ns.adobe.com/air/application/3.9">
+<application xmlns="http://ns.adobe.com/air/application/3.3">
 	
 	<id>org.com.lithier.MyVeryOwnLith</id>
 	<versionNumber>0.14</versionNumber>
@@ -61,8 +61,8 @@
 	<icon>
 		<image48x48>icons/icon_48.png</image48x48>
 		<image72x72>icons/icon_72.png</image72x72>
-		<image96x96>icons/icon_96.png</image96x96>
-		<image144x144>icons/icon_144.png</image144x144>
+		<!--<image96x96>icons/icon_96.png</image96x96>-->
+		<!--<image144x144>icons/icon_144.png</image144x144>-->
 		<!--<image192x192>icons/icon_192.png</image192x192>-->
 		<!--<image512x512>icons/icon_512.png</image512x512>-->
 	</icon>
